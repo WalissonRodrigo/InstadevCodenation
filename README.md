@@ -1,16 +1,15 @@
-# Instadev React SPA (Parte 2)
+# Instadev React SPA
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/abd20117-a1e5-4d48-bc1b-f06fbf8a9d78/deploy-status)](https://app.netlify.com/sites/instadev-aceleradev-react/deploys)
 
 ## Objetivo:
-O desafio desta semana e da próxima será desenvolver um *SPA (Single Page Application)* mobile-first do **Instagram** em React.
-
-### Referência em Produção:
-[https://vimeo.com/414861306/fc5bbd5ecc](https://vimeo.com/414861306/fc5bbd5ecc)
+Desafio do AceleraDEV React da Codenation onde foi desenvolvido um *SPA (Single Page Application)* mobile-first do **Instagram** em React.
 
 ### Repositório Base (para fins de estudo):
 [https://github.com/codenation-dev/react-instagram](https://github.com/codenation-dev/react-instagram)
 
-## Requisitos Parte 2:
-Nesta segunda parte você deverá trazer o que foi implementado na parte 1 e cuidar dos estados dos componentes, das requsições HTTP de cada Rota da aplicação e dos ciclos de vida dos componentes utilizando React Hooks e abordagem funcional, os seguintes requisitos devem ser cumpridos:
+## Requisitos:
+Cuidar dos estados dos componentes, das requsições HTTP de cada Rota da aplicação e dos ciclos de vida dos componentes utilizando React Hooks e abordagem funcional, os seguintes requisitos devem ser cumpridos:
 
 > * Ser desenvolvido utilizando abordagem funcional e React Hooks para gerenciamento de ciclo de vida e estados.
 > * Consumir os dados da Rest API, usando o [Fetch API](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetch_API/Using_Fetch) do Javascript.
@@ -22,7 +21,7 @@ Nesta segunda parte você deverá trazer o que foi implementado na parte 1 e cui
 > * Deve permitir cadastrar um usuário na rota */newuser* e exibir uma mensagem de alerta ao enviar.
 
 ### Estrutura de Arquivos e Pastas:
-Como já aprendemos em aula, a organização das pastas e arquivos deverá utilizar os seguintes padrões:
+Como abordado no curso, a organização das pastas e arquivos deverá utilizar os seguintes padrões:
 * *presentational components* e *container components* -> [Referência](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0) 
 * *Rails-Style Structure + Module Index* -> [Referência](https://webcache.googleusercontent.com/search?q=cache:DZ0HZwEl7AUJ:https://www.learnhowtoprogram.com/fidgetech-4-react/4-4-advanced-topics/4-4-3-3-react-and-redux-design-patterns+&cd=1&hl=en&ct=clnk&gl=br)
 
@@ -106,7 +105,7 @@ Seguindo estes dois padrões, a estrutura de arquivos e pastas do seu projeto de
 
 
 ### IMPORTANTE:
-Nesta fase você já foi apresentado ao [testing-library](https://testing-library.com/docs/intro) e para que você seja avaliado corretamente ao submeter seu desafio, é necessário que **TODOS** os seus **elementos React**, como *componentes*, *containers* e *rotas* possuam o atributo JSX/HTML (sintético) *data-testid="{nome-do-componente}"*:
+Para que você seja avaliado corretamente ao submeter seu desafio, é necessário que **TODOS** os seus **elementos React**, como *componentes*, *containers* e *rotas* possuam o atributo JSX/HTML (sintético) *data-testid="{nome-do-componente}"* usando o [testing-library](https://testing-library.com/docs/intro):
 
 
     ├── components
@@ -232,7 +231,7 @@ Nesta fase você já foi apresentado ao [testing-library](https://testing-librar
 * *500* - Server error
 
 ## Tópicos:
-Neste desafio você vai praticar os seus conhecimentos em:
+Neste desafio foi abordado os seguintes conhecimentos em:
 - **Fetch API**
 - **JS Funcional:**
 - **Modularização**
